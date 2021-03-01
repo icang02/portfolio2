@@ -11,15 +11,15 @@ body {
     background-color: darkgray;
 }
 
-.prevButton img {
+.nextButton img {
     position: fixed;
     top: 0;
     right: 0;
     opacity: 0.5;
-    width: 30px;
+    width: 39px;
 }
 
-.prevButton img:hover {
+.nextButton img:hover {
     opacity: 1;
     transition: 0.3s;
 }
@@ -124,14 +124,6 @@ section.deskBanner p {
 
 /* -------------Responsive breakpoint--------- */
 @media (max-width: 576px) {
-    .nextButton img {
-        width: 30px;
-        cursor: pointer;
-    }
-    .nextButton:hover,
-    .prevButton:hover {
-        padding: 2px;
-    }
     section.banner {
         width: 85%;
         padding-top: 25px;
@@ -158,11 +150,6 @@ section.deskBanner p {
     .icon {
         display: flex;
         justify-content: center;
-    }
-    .pageButton {
-        padding: 10px 3px;
-        display: flex;
-        justify-content: space-between;
     }
     .garis {
         display: none;
